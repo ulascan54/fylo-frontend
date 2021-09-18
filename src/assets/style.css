@@ -8,3 +8,9 @@
     /* font-family: 'Raleway', sans-serif; */
     }
 }
+
+@layer components {
+    .btn-blue {
+      @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold text-white;
+    }
+  }

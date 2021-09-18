@@ -10,10 +10,11 @@ import appTitle from "../src/components/ui/subs/appTitle.vue";
 
 const app = createApp(App);
 
-app.component("appButton", appButton);
-app.component("appDetail", appDetail);
-app.component("appLink", appLink);
-app.component("appLinkBlue", appLinkBlue);
-app.component("appLogo", appLogo);
-app.component("appTitle", appTitle);
+app.component("Button", appButton);
+app.component("Detail", appDetail);
+app.component("Link", appLink);
+app.component("LinkBlue", appLinkBlue);
+app.component("Logo", appLogo);
+app.component("Title", appTitle);
+
 app.mount("#app");
