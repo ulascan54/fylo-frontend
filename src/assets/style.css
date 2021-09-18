@@ -4,6 +4,8 @@
 
 @layer base {
     body{
+    @apply bg-black text-white;
+    font-size:14px;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
     }
