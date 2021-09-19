@@ -1,7 +1,7 @@
 <template>
-<router-link class="header-link" :to="`/${link}`">
+<a class="header-link" :href="`${link}`">
 {{text}}
-</router-link>
+</a>
 </template>
 <script setup>
 defineProps({text:String,link:String})
