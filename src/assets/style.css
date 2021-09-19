@@ -16,7 +16,7 @@
       @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold ;
     }
     .header-link,.link-blue {
-      @apply opacity-75 cursor-pointer hover:opacity-100 hover:underline text-[0.75rem];
+      @apply opacity-75 cursor-pointer hover:opacity-100 hover:underline text-[0.75rem]  ;
     }
     .link-blue {
       @apply hover:no-underline;
@@ -30,5 +30,26 @@
     .title{
       @apply font-bold text-3xl;
       font-family: 'Raleway', sans-serif;
+    }
+    .header{
+      @apply  bg-b-email flex items-center justify-between lg:py-12 lg:px-10 md:py-12 md:px-10 py-6 px-4;
+    }
+    .header .link{
+      @apply hidden lg:justify-between justify-around items-center  lg:w-1/6 md:w-1/4 w-1/2;
+    }
+    .hamburger span{
+      @apply block w-[26px] h-[2px] bg-white transition-all;
+      transform-origin: 3px 1px;
+    }
+    .h-open>span:first-child{
+      transform: rotate(45deg);
+    }
+    .h-open>span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .h-open>span:last-child {
+      transform: rotate(-45deg);
+
     }
   }

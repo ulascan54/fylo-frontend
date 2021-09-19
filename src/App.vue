@@ -9,11 +9,12 @@
         <!-- <Logo/> -->
         <!-- <Link :text="'features'" :link="''" /> -->
         <!-- <LinkBlue :text="'See how fylo works'" :link="''"/> -->
-        <Title :extra="''">
+        <!-- <Title :extra="''">
             <template #default>
                 çalışıyonmu
             </template>
-        </Title>
+        </Title> -->
+        <Header/>
     </div>
 </template>
 
