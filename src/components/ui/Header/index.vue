@@ -16,7 +16,7 @@
                 <Link :text="'Sign in'" link="#"/>
             </div>
         </div>
-        <div :class="[ ' top-[90px] animate__faster animate__animated absolute w-full h-screen inset-0 md:hidden', hamburger ?'visible  animate__fadeIn' : 'animate__fadeOut' , {'invisible' : !hidden}]">
+        <div :class="[ ' header-dropdown animate__faster animate__animated', hamburger ?'visible  animate__fadeIn' : 'animate__fadeOut' , {'invisible' : !hidden}]">
         <HamburgerDropdown/>
         </div>
     </div>

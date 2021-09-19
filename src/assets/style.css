@@ -46,6 +46,9 @@
     .header .link{
       @apply hidden md:flex justify-between  items-center  w-full;
     }
+    .header-dropdown{
+      @apply top-[80px]  absolute w-full h-screen inset-0 md:hidden;
+    }
     .menu{
       @apply relative md:w-1/4 lg:w-1/6 ;
     }
@@ -101,5 +104,14 @@
     }
     .avatar img{
       @apply rounded-full;
+    }
+    .comment-card{
+      @apply flex flex-col md:flex-row  px-10 lg:px-32 justify-around py-20 z-10;
+    }
+    .comment-container{
+      @apply relative z-[-1];
+    }
+    .comment-img{
+      @apply absolute px-10 lg:px-32 z-0 py-12;
     }
   }
