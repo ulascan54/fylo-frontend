@@ -4,7 +4,7 @@
 
 @layer base {
     body{
-    @apply bg-black text-white;
+    @apply bg-b-mail text-white;
     font-size:14px;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
@@ -14,6 +14,9 @@
 @layer components {
     .btn-blue {
       @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold ;
+    }
+    .btn-blue:hover{
+      @apply bg-gradient-to-r from-blue-200 to-g-call-cyan ;
     }
     .header-link,.link-blue {
       @apply opacity-75 cursor-pointer hover:opacity-100 hover:underline text-[0.75rem]  ;
@@ -59,5 +62,23 @@
 
     .h-open>span:last-child {
       transform: rotate(-45deg);
+    }
+    .hero{
+      @apply bg-b-email h-[850px] md:h-[1050px]  bg-hero-mobile md:bg-hero-desktop bg-no-repeat bg-bottom bg-contain flex justify-center items-center;
+    }
+    .hero .container{
+      @apply flex-col max-w-[745px] p-10;
+    }
+    .features{
+      @apply px-10 text-center max-w-[750px] mx-auto;
+    }
+    .features .container{
+      @apply  flex flex-wrap  justify-between;
+    }
+    .features-card{
+      @apply w-full md:w-[44%] mb-24;
+    }
+    .features-card .container{
+      @apply flex items-center justify-center;
     }
   }

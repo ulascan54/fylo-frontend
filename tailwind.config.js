@@ -14,6 +14,10 @@ module.exports = {
         "g-call-blue": "hsl(198, 60%, 50%)",
         "light-error": "hsl(0, 100%, 63%)",
       },
+      backgroundImage: theme => ({
+        'hero-desktop': "url('/src/assets/img/bg-curvy-desktop.svg')",
+        'hero-mobile': "url('/src/assets/img/bg-curvy-mobile.svg')",
+       })
     },
   },
   variants: {

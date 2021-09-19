@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/style.css";
 import "animate.css"
+import router from './router/index.js'
 
 import appButton from "../src/components/ui/subs/appButton.vue";
 import appDetail from "../src/components/ui/subs/appDetail.vue";
@@ -14,6 +15,7 @@ import appHeader from "./components/ui//Header/index.vue";
 
 const app = createApp(App);
 
+app.use(router)
 app.component("Button", appButton);
 app.component("Detail", appDetail);
 app.component("Link", appLink);

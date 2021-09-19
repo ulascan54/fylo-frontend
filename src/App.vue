@@ -14,7 +14,7 @@
                 çalışıyonmu
             </template>
         </Title> -->
-        <Header />
+        <router-view />
     <p>Rönesanslar
 Yerli ama daha çok yabancı birçok toplumbilimci için modernitenin köklerini en çok “Rönesans"ta aramak bir gerekliliktir. Bilhassa sanatla ilgili konuşurken aklımızın bir kenarında tuttuğumuz bu kavram aslında sosyolojik olarak da önemli bir etki alanına sahip. Dönemin sanatla beraber değişen, gelişen sosyal düzenlemelerine dikkat ettiğimizde çok da aykırı bir şeyden söz edilmediğini kabul ederiz zaten. Aynı şekilde ekonomide de… Ancak ne olursa olsun söze önce İtalyan Rönesansı'ndan girilir, çünkü kerteriz noktası asla değişmeyecektir. Bilhassa Avrupa için. Zira kronolojik olarak İtalyan Rönesansı'ndan asırlar önce yaşanmış olmasına rağmen, Arabistan, Çin, İran, Hindistan… gibi dünyanın başka coğrafyasında yaşanan rönesanslar da, İtalyan rönesansı üzerinden değerlendirilir. İşte; Jack Goody, ‘Rönesanslar’ adlı kitabında "tarihsel olarak” öncelikle Avrupa açısından “eşsiz” olan İtalyan Rönesansı'nın sosyolojik, dinsel ve başka sosyal açılardan değerlendirildiğinde, başka coğrafyalarda da yaşanmış benzer dönemler üzerinden sadece Avrupa'ya özgü olmayan, bir toplumsal “yenilenme” olduğunu anlatıyor. Diğer bir açıdan bakıldığında sadece Hıristiyan Avrupa'da değil, Müslüman, Budist ve Musevi coğrafyada yaşanan, birçok açıdan “altın” yılları ortaya koyuyor. Bahar Tırnakcı'nın titiz çevirisiyle Türkiye İş Bankası Kültür Yayınları tarafından yayımlandı.
 
@@ -81,10 +81,3 @@ DEVAMI +
         </p>        
     </div>
 </template>
-
-
-<script>
-</script>
-
-<style>
-</style>
