@@ -31,11 +31,20 @@
       @apply font-bold text-3xl;
       font-family: 'Raleway', sans-serif;
     }
+    .h-container{
+      @apply fixed w-full;
+    }
     .header{
-      @apply  bg-b-email flex items-center justify-between lg:py-12 lg:px-10 md:py-12 md:px-10 py-6 px-4;
+      @apply  bg-b-email flex items-center justify-between lg:py-12 lg:px-10 md:py-12 md:px-10 py-6 px-4 relative;
     }
     .header .link{
-      @apply hidden lg:justify-between justify-around items-center  lg:w-1/6 md:w-1/4 w-1/2;
+      @apply hidden md:flex justify-between  items-center  w-full;
+    }
+    .menu{
+      @apply relative md:w-1/4 lg:w-1/6 ;
+    }
+    .hamburger{
+      @apply block md:hidden
     }
     .hamburger span{
       @apply block w-[26px] h-[2px] bg-white transition-all;
@@ -50,6 +59,5 @@
 
     .h-open>span:last-child {
       transform: rotate(-45deg);
-
     }
   }
