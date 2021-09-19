@@ -13,6 +13,9 @@
 
 @layer components {
     .btn-blue {
-      @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold text-white;
+      @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold ;
+    }
+    .header-link{
+      @apply opacity-75 cursor-pointer hover:opacity-100 hover:underline text-[0.75rem];
     }
   }

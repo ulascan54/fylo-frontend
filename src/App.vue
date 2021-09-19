@@ -6,7 +6,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorum ipsum beatae, deserunt mollitia aut delectus exercitationem libero laboriosam odit saepe id provident temporibus. Autem repudiandae consectetur facilis laborum quidem.
             </template>
         </Detail> -->
-        <Logo/>
+        <!-- <Logo/> -->
+        <!-- <Link :text="'features'" /> -->
     </div>
 </template>
 
