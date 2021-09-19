@@ -1,6 +1,6 @@
 <template>
-<div class="h-container z-50">
-    <div :class="['header',{'onscroll':scroll}]">
+<div class="h-container z-50 ">
+    <div :class="['header animate__faster',{'onscroll  animate__animated animate__fadeInDown':scroll}]">
         <div>
             <Logo />
         </div>
