@@ -1,8 +1,8 @@
 <template>
-<p :class="`${position} text-[${size}]`">
+<p :class="`${extra} `">
     <slot/>
 </p>
 </template>
 <script setup>
-defineProps({position:String , size:String})
+defineProps({extra:String })
 </script>

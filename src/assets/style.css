@@ -15,7 +15,20 @@
     .btn-blue {
       @apply rounded-full bg-gradient-to-r from-g-call-cyan to-g-call-blue font-bold ;
     }
-    .header-link{
+    .header-link,.link-blue {
       @apply opacity-75 cursor-pointer hover:opacity-100 hover:underline text-[0.75rem];
+    }
+    .link-blue {
+      @apply hover:no-underline;
+    }
+    .link-blue div{
+      @apply  h-6 hover:border-b hover:border-white w-auto inline-block leading-6;
+    }
+    .link-blue span{
+      @apply text-[8px] rounded-full border px-[2px] leading-3  ml-1;
+    }
+    .title{
+      @apply font-bold text-3xl;
+      font-family: 'Raleway', sans-serif;
     }
   }
