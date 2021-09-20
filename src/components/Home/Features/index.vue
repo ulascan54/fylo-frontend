@@ -1,7 +1,7 @@
 <template>
 <div class="features ">
 
-<div class="container">
+<div class="container relative">
 
 <Card title="Access your files, anywhere" detail="The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.">
     <template #default>
@@ -18,11 +18,14 @@
     <PeopleIcon/>
     </template>
 </Card>
-<Card title="Store any type of file" detail="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.">
+<Card  title="Store any type of file" detail="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.">
     <template #default>
     <FileIcon/>
     </template>
 </Card>
+    <div  class="invisible absolute inset-0 w-full h-full  flex items-end justify-center">
+        <div id="Team" class="mb-24"></div>
+    </div>
 </div>
 </div>
 </template>

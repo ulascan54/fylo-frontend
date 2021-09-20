@@ -14,7 +14,7 @@
              </template>
         </Detail>
         <div class="flex items-center justify-center mt-8">
-        <Button :text="'Get Started'" :size="'w-72 h-14'"/> 
+        <Button :text="'Get Started'" :size="'w-72 h-14'" id="Features"/> 
 
         </div>
         </div>

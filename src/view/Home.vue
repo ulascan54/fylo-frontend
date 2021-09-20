@@ -1,8 +1,8 @@
 <template>
         <Header />
         <Hero/>
-        <Features id="Features"/>
-        <Team id="Team"/>
+        <Features />
+        <Team />
         <Comments/>
         <GetMail/>
         <Footer/>
