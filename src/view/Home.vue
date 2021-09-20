@@ -13,7 +13,6 @@ import Features from "../components/Home/Features/index.vue";
 import Team from "../components/Home/Team/index.vue";
 import Comments from "../components/Home/Comments/index.vue";
 import GetMail from "../components/Home/GetMail/index.vue";
-import Footer from "../components/Home/Footer/index.vue";
 
 
 </script>

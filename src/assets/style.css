@@ -127,7 +127,13 @@
       @apply  max-w-[860px] bg-b-email h-full inset-0 mx-auto rounded-md text-center py-10  px-5 md:px-20 flex flex-col items-center justify-between;
     }
     .getmail-form{
-      @apply w-full flex  flex-col sm:flex-row justify-around mt-5; 
+      @apply w-full flex  flex-col sm:flex-row justify-around mt-5 relative; 
+    }
+    .getmail-form .invalid-feedback{
+      @apply absolute inset-0 text-light-error w-full font-bold text-left h-[120%] sm:h-[148%]  sm:ml-8 sm:mt-2 md:mt-1  mt-3 text-xs flex items-end;
+    }
+    .getmail-form .is-invalid {
+      @apply border-2 border-light-error ;
     }
     .getmail-bg-bottom{
       @apply h-1/2 w-full bg-b-footer;

@@ -12,6 +12,7 @@ import appLogo from "../src/components/ui/subs/appLogo.vue";
 import appTitle from "../src/components/ui/subs/appTitle.vue";
 
 import appHeader from "./components/ui/Header/index.vue";
+import appFooter from "./components/ui/Footer/index.vue";
 import appAvatar from "./components/ui/Avatar/index.vue";
 
 const app = createApp(App);
@@ -26,5 +27,6 @@ app.component("Logo", appLogo);
 app.component("Title", appTitle);
 app.component("Header", appHeader);
 app.component("Avatar", appAvatar);
+app.component("Footer", appFooter);
 
 app.mount("#app");

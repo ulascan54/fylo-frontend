@@ -5,7 +5,7 @@
             <Logo />
         </div>
         <div class="menu">
-            <a href="javascript:void(0)" @click="btnHamburger" :class="`hamburger ${hamburger ? 'h-open' : ''} `">
+            <a href="javascript:void(0)" @click="btnHamburger" :class="`hamburger  ${hamburger ? 'h-open' : ''} `">
                 <span class=" mb-[5px]"></span>
                 <span class=" mb-[5px]"></span>
                 <span></span>
@@ -16,7 +16,7 @@
                 <Link :text="'Sign in'" link="#"/>
             </div>
         </div>
-        <div :class="[ ' header-dropdown animate__faster animate__animated', hamburger ?'visible  animate__fadeIn' : 'animate__fadeOut' , {'invisible' : !hidden}]">
+        <div :class="[ ' header-dropdown animate__faster animate__animated ', hamburger ?'visible   animate__fadeIn' : 'animate__fadeOut' , {'invisible' : !hidden}]">
         <HamburgerDropdown/>
         </div>
     </div>
@@ -32,6 +32,7 @@ const hidden=ref(false)
 const scroll=ref(true)
 const btnHamburger=()=>{
     hamburger.value=!hamburger.value
+
     if(hidden.value){
         setTimeout(() => {
             hidden.value=!hidden.value
@@ -43,10 +44,13 @@ const btnHamburger=()=>{
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        if (!hamburger.value) {
+         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     scroll.value=true
   } else {
       scroll.value=false
   }
+    }
+
 }
 </script>
