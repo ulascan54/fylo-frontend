@@ -135,4 +135,43 @@
     .getmail-input{
       @apply w-full sm:w-7/12 rounded-full outline-none focus:border focus:border-g-call-cyan text-black px-5 text-opacity-75 h-10 md:h-12;
     }
+    .footer-container{
+      @apply bg-b-footer px-10  md:px-40 pb-5 pt-32 sm:py-20;
+    }
+    .footer{
+      @apply flex flex-wrap  justify-between py-10;
+    }
+    .footer .adress{
+      @apply flex justify-between lg:w-4/12 md:w-6/12 w-full;
+    }
+    .footer .contact{
+      @apply md:w-5/12 lg:w-auto w-full mt-3 md:mt-0;
+    }
+    .footer .contact .items{
+      @apply flex items-center;
+    }
+    .footer .contact .items .items-icon{
+      @apply  mr-5;
+    }
+    .footer .link-container{
+      @apply flex flex-col  w-full md:w-3/12  mt-10 lg:mt-0 lg:w-auto;
+    }
+    .footer .link-container .link-first{
+      @apply text-sm
+    }
+    .footer .link-container .link{
+      @apply text-sm mt-3;
+    }
+    .footer .social-icons{
+     @apply flex lg:mt-0 justify-center md:justify-start  w-full md:w-auto mt-10; 
+    }
+    .footer .social-icons i{
+      @apply mr-4 text-base hover:border-g-call-cyan hover:text-g-call-cyan cursor-pointer transition-all rounded-full border h-8 w-8 flex items-center justify-center;
+    }
+    .attribution{
+      @apply bg-b-footer text-center p-2 text-xs;
+    }
+    .attribution a{
+      @apply hover:underline font-bold hover:text-g-call-cyan;
+    }
   }
