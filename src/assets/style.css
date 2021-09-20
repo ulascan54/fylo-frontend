@@ -106,13 +106,13 @@
       @apply rounded-full;
     }
     .comment-card{
-      @apply flex flex-col md:flex-row  px-10 lg:px-32 justify-around py-20 z-10;
+      @apply flex flex-col md:flex-row  px-10 lg:px-32 justify-around py-40 z-10;
     }
     .comment-container{
       @apply relative z-[-1];
     }
     .comment-img{
-      @apply absolute px-10 lg:px-32 z-0 py-12;
+      @apply absolute px-10 lg:px-32 z-0 py-28 sm:py-24 md:py-32 bg-no-repeat;
     }
     .getmail-container{
       @apply h-[270px] relative;
