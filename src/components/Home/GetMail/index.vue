@@ -15,7 +15,7 @@
         </Detail>
         <div class="getmail-form">
             <Input/>
-           <Button :text="'Get Started For Free'" :size="' w-full md:w-2/6  h-14 mt-5 md:mt-0 '"/>
+           <Button :text="'Get Started For Free'" :size="' w-full sm:w-2/6  h-10 md:h-12 mt-5 sm:mt-0 md:mt-0 '"/>
         </div>
         </div>
     </div>
