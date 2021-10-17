@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full  flex max-w-[1300px]  mx-auto justify-between pt-20">
+    <div class="w-full px-10  flex max-w-[1300px] flex-wrap   mx-auto justify-between pt-20">
         <Card/>
         <Card/>
         <Card/>
