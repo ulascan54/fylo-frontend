@@ -13,6 +13,7 @@
             <div  class="link">
                 <Link :text="'Features'" link="#Features"/>
                 <Link :text="'Team'" link="#Team"/>
+                <Link :text="'Blog'" to="blog-post"/>
                 <Link :text="'Sign in'" link="#"/>
             </div>
         </div>
